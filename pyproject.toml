@@ -1,0 +1,13 @@
+[project]
+name = "hardanger-oma"
+version = "1.0.0"
+description = "Operational modal analysis (SSI-cov) of the Hardanger Bridge: automatic identification, mode tracking, wind and temperature effects, novelty detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["numpy", "scipy", "matplotlib"]
+
+[tool.pytest.ini_options]
+# Run the tests from the repository folder: python -m pytest
+pythonpath = ["."]
+testpaths = ["tests"]

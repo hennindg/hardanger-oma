@@ -1,0 +1,18 @@
+# Data and results are not part of the repository (see hardanger/paths.py)
+data/
+results/
+*.mat
+*.zip
+*.npz
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
